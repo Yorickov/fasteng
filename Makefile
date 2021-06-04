@@ -4,9 +4,6 @@ install:
 run:
 	bin/bot
 
-server:
-	ruby lib/server.rb
-
 test:
 	bundle exec rspec
 
