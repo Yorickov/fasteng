@@ -12,7 +12,8 @@ postgresql
 ### Set up
 ```
 make install
-make db-migrate
+make db-create
+make cron-start
 make run
 ```
 
